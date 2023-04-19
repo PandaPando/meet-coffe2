@@ -1,0 +1,228 @@
+body * {
+    margin: 0;
+    padding: 0;
+}
+
+/* Inicio Navbar */
+.logo {
+    width: 25px;
+    fill: white;
+    margin: 10px 10px 0 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.oscuro {
+    width: 100%;
+    background-color: black;
+    height: 45px;
+
+}
+
+/* Fin Navbar */
+/* Inicio Header */
+header {
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/bg-hero.png);
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    color: white;
+    padding-top: 60px;
+}
+
+header h1 {
+    margin-right: 100px;
+}
+
+header h2 {
+    margin-right: 100px;
+}
+
+/* Fin Header */
+/* Inicio Ubicacion */
+#ubicacion {
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#ubicacion img {
+    height: 300px;
+    width: 350px;
+}
+
+#ubicacion h2 {
+    font: normal normal bold 35px/61px Open sans;
+    letter-spacing: 0.9px;
+    color: black;
+    opacity: 1;
+}
+
+#ubicacion p {
+    font: normal normal normal 15px/34px Open sans;
+    letter-spacing: 0.5px;
+    color: black;
+    opacity: 1;
+}
+
+/* Fin Ubicacion */
+
+/* Inicio Proxima Charla */
+
+#proxima-charla {
+    width: 100%;
+    height: 500px;
+    background-color: #A4452C;
+}
+
+/* Importante el width y el margin */
+.centrado {
+    width: 1200px;
+    margin: auto;
+}
+
+.charla-speaker {
+    width: 320px;
+    float: left;
+    margin-top: 80px;
+}
+
+.charla-texto {
+    width: 700px;
+    float: right;
+    margin-top: 80px;
+}
+
+/* Reset margin and padding .charla-texto */
+.charla-texto * {
+    margin: 0;
+    padding: 0;
+}
+
+.charla-texto h2 {
+    text-align: left;
+    font: normal normal bold 45px/61px Open sans;
+    letter-spacing: 0.9px;
+    color: white;
+    opacity: 1;
+}
+
+.charla-texto h3 {
+    text-align: left;
+    font: normal normal bold 40px/55px Open sans;
+    letter-spacing: 0.9px;
+    color: white;
+    opacity: 1;
+}
+
+.charla-texto h4 {
+    text-align: left;
+    font: normal normal bold 33px/45px Open sans;
+    letter-spacing: 0.66px;
+    color: white;
+    opacity: 1;
+}
+
+.charla-texto h5 {
+    text-align: left;
+    font: normal normal bold 20px/27px Open sans;
+    letter-spacing: 0.9px;
+    color: white;
+    opacity: 1;
+}
+
+.charla-texto p {
+    text-align: left;
+    font: normal normal bold 20px/27px Open sans;
+    letter-spacing: 0.9px;
+    color: white;
+    opacity: 1;
+}
+
+/* Fin Proxima Charla */
+/* Inicio eventos */
+#eventos {
+    width: 100%;
+    height: 700px;
+}
+
+#eventos * {
+    margin: 0;
+    padding: 0;
+}
+
+#eventos h2 {
+    text-align: center;
+    font: normal normal bold 45px/61px Open sans;
+    letter-spacing: 0.9px;
+    color: black;
+    opacity: 1;
+    padding: 40px;
+}
+
+#eventos .evento {
+    float: left;
+    width: 400px;
+    margin: 1.5%;
+    padding: 1%;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#eventos h3 {
+    text-align: center;
+    font: normal normal bold 35px/47px Open Sans;
+    letter-spacing: 0px;
+    color: #000F08;
+    opacity: 1;
+}
+
+/* Fin eventos */
+/* Inicio Footer */
+
+footer{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#contacto {
+    width: 100%;
+    background-color: #000000;
+    height: 200px;
+    padding-top: 50px;
+}
+#contacto a {
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 20px 10px;
+    padding-top: 50px;
+}
+
+
+#contacto p {
+    text-align: center;
+    font: normal normal normal 25px/34px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-top: 20px;
+}
+
+/* Fin Footer */
